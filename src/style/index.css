@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('https://wallpapers.com/images/hd/shop-background-gowigacrnmibs63d.jpg') center/cover no-repeat fixed;
+
+
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(207, 199, 199); 
+    border-radius: 10px;
+  }
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,81 @@
+.small-container {
+    display: flex;
+    height: 100vh; 
+}
+
+.outercontainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    transform: translateX(20%);
+    width: 55%;
+    min-width: 500px;
+    box-sizing: border-box;
+    overflow: visible;
+    overflow-y: auto; 
+    
+}
+
+#container {
+   margin: 10px;
+   border: 1px solid #ddd;
+   border-radius: 15px;
+   padding: 20px;
+   background-color: rgb(230, 230, 230);
+   height: 530px;
+}
+.error-message {
+    color: #ff5555; 
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+#buttons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons button {
+    margin: 15px; 
+}
+
+
+input {
+    width: 500px;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid rgb(28, 6, 49);
+    border-radius: 5px;
+    outline: none;
+}
+  
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(28, 6, 49);
+    border-radius: 5px;
+    outline: none;
+}
+
+
+
+.button-add {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: rgb(66, 53, 82);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-add:hover {
+    background-color: #97b4a9;
+}
